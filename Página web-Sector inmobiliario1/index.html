@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Elegance - Propiedades Exclusivas</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado y Navegación -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Elegance</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#propiedades" class="nav__link">Propiedades</a></li>
+                    <li class="nav__item"><a href="#agentes" class="nav__link">Agentes</a></li>
+                    <li class="nav__item"><a href="#testimonios" class="nav__link">Testimonios</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Inicio -->
+        <section id="inicio" class="inicio">
+            <div class="inicio__container container">
+                <h1 class="inicio__titulo" data-aos="fade-up">Encuentra la casa de tus sueños</h1>
+                <p class="inicio__descripcion" data-aos="fade-up" data-aos-delay="200">Propiedades exclusivas en las mejores ubicaciones.</p>
+                <a href="#propiedades" class="boton" data-aos="fade-up" data-aos-delay="400">Ver Propiedades</a>
+            </div>
+        </section>
+
+        <!-- Sección de Propiedades -->
+        <section id="propiedades" class="propiedades section">
+            <div class="container">
+                <h2 class="section__titulo" data-aos="fade-up">Propiedades Destacadas</h2>
+                <div class="swiper-container propiedades__carrusel" data-aos="fade-up" data-aos-delay="200">
+                    <div class="swiper-wrapper">
+                        <!-- Propiedad 1 -->
+                        <div class="swiper-slide propiedad__tarjeta">
+                            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Propiedad 1" class="propiedad__imagen">
+                            <div class="propiedad__contenido">
+                                <h3 class="propiedad__titulo">Villa de Lujo con Vista al Mar</h3>
+                                <p class="propiedad__ubicacion">Marbella, España</p>
+                                <p class="propiedad__precio">$2,500,000</p>
+                            </div>
+                        </div>
+                        <!-- Propiedad 2 -->
+                        <div class="swiper-slide propiedad__tarjeta">
+                            <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Propiedad 2" class="propiedad__imagen">
+                            <div class="propiedad__contenido">
+                                <h3 class="propiedad__titulo">Moderno Apartamento en el Centro</h3>
+                                <p class="propiedad__ubicacion">Madrid, España</p>
+                                <p class="propiedad__precio">$850,000</p>
+                            </div>
+                        </div>
+                        <!-- Propiedad 3 -->
+                        <div class="swiper-slide propiedad__tarjeta">
+                            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Propiedad 3" class="propiedad__imagen">
+                            <div class="propiedad__contenido">
+                                <h3 class="propiedad__titulo">Casa Familiar con Jardín</h3>
+                                <p class="propiedad__ubicacion">Valencia, España</p>
+                                <p class="propiedad__precio">$620,000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Agentes -->
+        <section id="agentes" class="agentes section bg-light">
+            <div class="container">
+                <h2 class="section__titulo" data-aos="fade-up">Nuestros Agentes Expertos</h2>
+                <div class="agentes__container grid">
+                    <div class="agente__tarjeta" data-aos="fade-right">
+                        <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Agente 1" class="agente__imagen">
+                        <h3 class="agente__nombre">Juan Pérez</h3>
+                        <p class="agente__especialidad">Especialista en Villas de Lujo</p>
+                    </div>
+                    <div class="agente__tarjeta" data-aos="fade-up">
+                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Agente 2" class="agente__imagen">
+                        <h3 class="agente__nombre">María García</h3>
+                        <p class="agente__especialidad">Experta en Apartamentos Urbanos</p>
+                    </div>
+                    <div class="agente__tarjeta" data-aos="fade-left">
+                        <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Agente 3" class="agente__imagen">
+                        <h3 class="agente__nombre">Carlos Rodríguez</h3>
+                        <p class="agente__especialidad">Consultor de Inversiones</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Testimonios -->
+        <section id="testimonios" class="testimonios section">
+            <div class="container">
+                <h2 class="section__titulo" data-aos="fade-up">Lo que dicen nuestros clientes</h2>
+                <div class="swiper-container testimonios__carrusel" data-aos="fade-up" data-aos-delay="200">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonio__tarjeta">
+                            <p class="testimonio__texto">"El equipo de Elegance encontró la casa perfecta para mi familia. ¡Un servicio impecable y muy profesional!"</p>
+                            <p class="testimonio__autor">- Familia López</p>
+                        </div>
+                        <div class="swiper-slide testimonio__tarjeta">
+                            <p class="testimonio__texto">"Su conocimiento del mercado es inigualable. Me ayudaron a realizar una inversión inmobiliaria muy rentable."</p>
+                            <p class="testimonio__autor">- A. Martínez</p>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="contacto section bg-light">
+            <div class="container">
+                <h2 class="section__titulo" data-aos="fade-up">Contacta con Nosotros</h2>
+                <form action="#" class="contacto__formulario" data-aos="fade-up" data-aos-delay="200">
+                    <input type="text" placeholder="Nombre" class="contacto__input">
+                    <input type="email" placeholder="Correo Electrónico" class="contacto__input">
+                    <textarea placeholder="Mensaje" class="contacto__input"></textarea>
+                    <button type="submit" class="boton">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Inmobiliaria Elegance. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
